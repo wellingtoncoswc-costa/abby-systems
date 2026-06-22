@@ -510,9 +510,31 @@ a { color: inherit; text-decoration: none; }
 }
 .contact-inner p {
   color: var(--muted);
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   font-size: 1rem;
   line-height: 1.7;
+}
+.contact-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  flex-wrap: wrap;
+}
+.contact-phone {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--mint);
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid rgba(78, 205, 196, 0.35);
+  padding: 0.85rem 1.5rem;
+  border-radius: 4px;
+  transition: background 0.2s, color 0.2s;
+}
+.contact-phone:hover {
+  background: rgba(78, 205, 196, 0.08);
 }
 
 /* ── Footer ──────────────────────────────────────────────────── */
